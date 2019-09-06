@@ -1,0 +1,69 @@
+@font-face {
+    font-family: "Roboto Thin";
+    src: url("../fonts/robotoThin.ttf");
+}
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: fixed no-repeat url("../img/bg-auth.jpg");
+    background-size: cover;
+}
+.reg{
+    width: 250px;
+    height: 350px;
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+    top: calc(50vh - 150px);
+    left: 50%;
+    transform: translateX(-50%);
+    box-sizing: border-box;
+    padding: 40px 15px;
+}
+.reg .header{
+    font-family: "Roboto Thin";
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 10px;
+    padding: 0 10px 15px 10px;
+    margin-bottom: 10px;
+    border-bottom: thin solid rgba(0,0,0,0.4);
+}
+.reg input[type=email], input[type=password], input[type=text]{
+    display: block;
+    margin: 15px auto;
+    padding: 5px 15px;
+    width: 180px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: thin solid #424242;
+    transition: 0.4s ease;
+    outline: 0;
+}
+.reg input[type=email]:focus, input[type=password]:focus, input[type=text]:focus{
+    border-bottom-color: rgba(5, 52, 255, 0.59);
+    background-color: rgba(0, 211, 255, 0.09);
+    /*color: black;*/
+    /*transition: 0.4s ease;*/
+
+    outline: 0;
+}
+.reg input[type=submit]{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 10px;
+    width: 120px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: none;
+    background-color: #4e84ff;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.4s ease;
+    outline: 0;
+}

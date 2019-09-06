@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "Roboto Thin";
+    src: url("../fonts/robotoThin.ttf");
+}
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: fixed no-repeat url("../img/bg-auth.jpg");
+    background-size: cover;
+}
+.auth{
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+    top: calc(50vh - 125px);
+    left: 25px;
+    box-sizing: border-box;
+    padding: 40px 15px;
+}
+.auth .header{
+    font-family: "Roboto Thin";
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 35px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    border-bottom: thin solid rgba(0,0,0,0.4);
+}
+.auth input[type=text], input[type=password]{
+    display: block;
+    margin: 15px auto;
+    padding: 5px 15px;
+    width: 180px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: thin solid #424242;
+    transition: 0.4s ease;
+    outline: 0;
+}
+.auth input[type=text]:focus, input[type=password]:focus{
+    border-bottom-color: transparent;
+    background-color: rgba(0,0,0,0.2);
+    color: white;
+    transition: 0.4s ease;
+    outline: 0;
+}
+.auth input[type=submit]{
+    display: block;
+    margin: 15px auto;
+    padding: 5px 10px;
+    width: 120px;
+    box-sizing: border-box;
+    border: none;
+    background-color: #4e84ff;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.4s ease;
+    outline: 0;
+}

@@ -1,0 +1,42 @@
+main{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login{
+    margin-right: 20px;
+}
+.login a{
+    border-radius: 8px;
+    background-color: rgba(246, 246, 246, 0.61);
+    border: 1px solid #c4c4c4;
+    padding: 10px;
+    color: #000;
+    text-decoration: none;
+    margin-right: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form *{
+    margin: 10px 0;
+}
+form input[type = "text"]{
+    width: 60%;
+    height: 30px;
+    border-radius: 5px;
+
+}
+form .but{
+    width: 150px;
+    border-radius: 5px;
+    background-color: rgba(246, 246, 246, 0.61);
+    border: 1px solid #c4c4c4;
+    padding: 10px;
+}
